@@ -11,9 +11,10 @@ export default function App () {
 
 const styles = StyleSheet.create({
   body: {
-    flex: 1,
+    display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    position: "relative",
     height: "100%",
     width: "100%",
     backgroundColor: "steelblue"
